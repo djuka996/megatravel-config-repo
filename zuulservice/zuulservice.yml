@@ -2,6 +2,7 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 # Primer kako se rutira odredjeni URL na odredjeni servis
 #zuul.routes.organizationservice: /organization/**
+zuul.routes.demoservice: /demo/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 signing.key: "345345fsdfsf5345"
