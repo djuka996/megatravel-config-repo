@@ -32,6 +32,6 @@ eureka:
 zuul:
   prefix:  /api
   routes:
-    ignoredPatterns: /**
+    ignored-patterns: /**
     demoservice: /demo/**
     stefanservice: /stefanPutanja/**
