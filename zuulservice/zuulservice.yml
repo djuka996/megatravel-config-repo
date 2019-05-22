@@ -34,4 +34,4 @@ zuul:
   routes:
     ignoredPatterns: /**
     demoservice: /demo/**
-    stefanservice: /stefan/**
+    stefanservice: /stefanPutanja/**
