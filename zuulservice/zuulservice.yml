@@ -35,3 +35,4 @@ zuul:
   routes:
     demoservice: /demo/**
     stefanservice: /stefanPutanja/**
+    loginAndRegistration: /login/**
