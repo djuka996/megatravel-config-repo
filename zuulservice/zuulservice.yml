@@ -30,9 +30,10 @@ eureka:
         defaultZone: http://localhost:8761/eureka/
 
 zuul:
-  ignored-services: stefanservice, demoservice
+  ignored-services: stefanservice, demoservice, converterservice
   prefix:  /api
   routes:
     demoservice: /demo/**
     stefanservice: /stefanPutanja/**
     loginAndRegistration: /login/**
+    converterservice: /convert/**
