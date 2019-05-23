@@ -35,10 +35,10 @@ spring:
     hibernate:
       ddl-auto: update
       
-server:
-#  port: 8452
-  ssl:
-    enabled: true
+# server:
+# #  port: 8452
+#   ssl:
+#     enabled: true
     # key-store: "booker.p12"
     # key-store-password: sifra
     # key-store-type: PKCS12
