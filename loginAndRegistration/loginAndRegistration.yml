@@ -3,7 +3,7 @@ server:
   port: 0
   ssl:
     enabled: true
-    key-store: ../booker.p12
+    key-store: classpath:booker.p12
     key-store-password: sifra
     key-store-type: PKCS12
     key-alias: booker
