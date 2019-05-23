@@ -1,6 +1,11 @@
 # For random port, the property is set to 0
-# server:
-#   port: 0
+server:
+  port: 0
+  ssl:
+    enabled: true
+    key-store: "booker.p12"
+    key-store-password: sifra
+    key-store-type: PKCS12
 
 logging:
     level:
@@ -35,8 +40,8 @@ spring:
     hibernate:
       ddl-auto: update
       
- server:
-  port: 0
+# server:
+#   port: 8452
 #   ssl:
 #     enabled: true
     # key-store: "booker.p12"
