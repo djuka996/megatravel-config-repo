@@ -39,6 +39,7 @@ spring:
     show-sql: true
     generate-ddl: true
     hibernate:
+      dialect: org.hibernate.dialect.MySQLDialect
       ddl-auto: update
       
 # server:
