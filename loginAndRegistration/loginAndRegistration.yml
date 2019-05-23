@@ -1,6 +1,6 @@
 # For random port, the property is set to 0
 server:
-  port: 84443
+  port: 61243
   ssl:
     enabled: true
     key-store: "booker.p12"
