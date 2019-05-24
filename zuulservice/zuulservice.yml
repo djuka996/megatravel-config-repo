@@ -31,10 +31,11 @@ eureka:
 
 zuul:
   sensitiveHeaders: Cookie, Set-Cookie
-  ignored-services: stefanservice, demoservice, converterservice
+  ignored-services: stefanservice, demoservice, converterservice, loginAndRegistration, front
   prefix:  /api
   routes:
     demoservice: /demo/**
     stefanservice: /stefanPutanja/**
     loginAndRegistration: /login/**
     converterservice: /convert/**
+    front: /front/**
