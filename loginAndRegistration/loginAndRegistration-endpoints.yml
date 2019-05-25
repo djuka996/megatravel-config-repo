@@ -1,3 +1,0 @@
-endpoints:
- - https://localhost:8442/certificates/normal
- - https://localhost:8442/randomError      
