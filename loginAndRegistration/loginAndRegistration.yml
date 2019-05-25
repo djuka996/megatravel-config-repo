@@ -46,6 +46,10 @@ spring:
     hibernate:
       dialect: org.hibernate.dialect.MySQLDialect
       ddl-auto: update
+
+endpoint:
+ - https://localhost:8442/certificates/normal
+ - https://localhost:8442/randomError
       
 # server:
 #   port: 8452
