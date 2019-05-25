@@ -39,3 +39,11 @@ zuul:
     loginAndRegistration: /login/**
     converterservice: /convert/**
     front: /front/**
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
