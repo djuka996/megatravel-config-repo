@@ -11,7 +11,7 @@ server:
    trust-store: classpath:bookerTrust.p12
    trust-store-password: sifra
    trust-store-type: PKCS12
-   client-auth: want
+   client-auth: need
 
 logging:
     level:
