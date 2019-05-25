@@ -48,5 +48,5 @@ spring:
       ddl-auto: update
 
 endpoints:
- - https://localhost:5555/stefanPutanja/test
- - https://localhost:5555/stefanPutanja/test-post
+ - https://localhost:8442/certificates/test
+ - https://localhost:5555/stefanPutanja/stefan/test
