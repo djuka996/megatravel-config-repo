@@ -21,6 +21,10 @@ logging:
 
 eureka:
   instance:
+    nonSecurePortEnabled: false
+    securePortEnabled: true
+    securePort: ${server.port}
+    secureVirtualHostName: ${spring.application.name}
     preferIpAddress: true
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
