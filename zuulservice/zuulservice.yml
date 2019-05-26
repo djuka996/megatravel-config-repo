@@ -58,3 +58,5 @@ hystrix:
 
 ribbon:
     IsSecure: true
+    ReadTimeout: 60000
+    SocketTimeout: 60000
