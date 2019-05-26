@@ -18,7 +18,6 @@ server:
    key-store-password: sifra
    key-store-type: PKCS12
    key-alias: zuul
-   client-auth: want
    trust-store: classpath:zuulTrust.p12
    trust-store-password: sifra
   port: 5555
@@ -55,7 +54,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 10000
+            timeoutInMilliseconds: 60000
 
 ribbon:
     IsSecure: true
