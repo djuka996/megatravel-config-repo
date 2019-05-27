@@ -20,6 +20,7 @@ server:
    key-alias: zuul
    trust-store: classpath:zuulTrust.p12
    trust-store-password: sifra
+   trust-store-type: PKCS12
   port: 5555
 
 logging:
@@ -61,3 +62,7 @@ ribbon:
     IsSecure: true
     ReadTimeout: 60000
     SocketTimeout: 60000
+    TrustStore: classpath:zuulTrust.p12
+    TrustStoreType: PKCS12
+    TrustStorePassword: sifra
+    MaxAutoRetries: 2
