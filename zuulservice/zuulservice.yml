@@ -38,6 +38,7 @@ eureka:
         defaultZone: http://localhost:8761/eureka/
 
 zuul:
+  sslHostnameValidationEnabled: false
   sensitiveHeaders: Cookie, Set-Cookie
   ignored-services: stefanservice, demoservice, converterservice, loginAndRegistration, front
   prefix:  /api
