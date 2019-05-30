@@ -31,6 +31,7 @@ logging:
 
 eureka:
   instance:
+    secureVirtualHostName: ${spring.application.name}
     preferIpAddress: true
   client:
     registerWithEureka: true
@@ -62,7 +63,7 @@ ribbon:
     IsSecure: true
     ReadTimeout: 60000
     SocketTimeout: 60000
-    TrustStore: classpath:zuulTrust.p12
+    TrustStore: zuulTrust.p12
     TrustStoreType: PKCS12
     TrustStorePassword: sifra
     MaxAutoRetries: 2
